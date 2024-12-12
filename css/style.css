@@ -1,0 +1,274 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--WHITE, #fff);
+  color: #434455;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+img {
+  display: block;
+}
+
+.flex {
+  display: flex;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+p {
+  margin: 0;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+address {
+  font-style: normal;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1158px;
+  padding: 0 15px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.logo {
+  color: var(--NAVY-BLUE, #4d5ae5);
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  display: inline-block;
+}
+.logo-header {
+  margin-right: 76px;
+}
+.logo-header span {
+  color: var(--IRIS, #2e2f42);
+}
+.logo-footer {
+  margin-bottom: 16px;
+}
+.logo-footer span {
+  color: var(--CLOUD, #f4f4fd);
+}
+.menu--item {
+  margin-right: 40px;
+}
+.menu--item:last-child {
+  margin-right: 0;
+}
+.menu--link {
+  color: var(--NAVY-BLUE, #2e2f42);
+  font-weight: 500;
+  padding: 24px 0;
+  display: block;
+}
+.menu--link:hover {
+  color: var(--OCEAN, #404bbf);
+}
+.menu--link:focus {
+  color: var(--OCEAN, #404bbf);
+}
+
+.address {
+  margin-left: auto;
+}
+.address--item {
+  margin-right: 40px;
+}
+.address--item:last-child {
+  margin-right: 0;
+}
+.address--link {
+  color: var(--SLATE, #434455);
+}
+.address--link:hover {
+  color: var(--OCEAN, #404bbf);
+}
+.address--link:focus {
+  color: var(--OCEAN, #404bbf);
+}
+
+.section_offer {
+  background: var(--NAVY-BLUE, #2e2f42);
+}
+
+.offer--ttl {
+  color: var(--WHITE, #fff);
+  text-align: center;
+
+  /* Header 1 */
+  font-size: 56px;
+  font-style: normal;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+
+  max-width: 496px;
+  margin: 0 auto 48px;
+}
+.offer--btn {
+  display: block;
+  margin: 0 auto;
+  padding: 16px 32px;
+}
+
+.visually-hidden:not(:focus):not(:active) {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.btn {
+  color: var(--WHITE, #fff);
+
+  /* Button Text */
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  background: var(--IRIS, #4d5ae5);
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
+}
+.btn:hover {
+  background-color: var(--OCEAN, #404bbf);
+}
+.btn:focus {
+  background-color: var(--OCEAN, #404bbf);
+}
+
+.section-title {
+  color: var(--NAVY-BLUE, #2e2f42);
+  text-align: center;
+
+  /* Header 2 */
+  text-transform: capitalize;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+
+  margin-bottom: 72px;
+}
+
+.section_team {
+  background: var(--CLOUD, #f4f4fd);
+}
+.team-cards {
+  gap: 24px;
+}
+.team-card {
+  width: calc((100% - 24px * 3) / 4);
+  background-color: var(--WHITE, #fff);
+  border-radius: 0px 0px 4px 4px;
+}
+.team-card--ttl {
+  margin-bottom: 8px;
+}
+.team-card--info {
+  text-align: center;
+  padding: 32px 0;
+}
+
+.benefite-cards {
+  gap: 24px;
+}
+.benefite-card {
+  width: calc((100% - 24px * 3) / 4);
+  max-width: 264px;
+  width: 100%;
+}
+.benefite-card--ttl {
+  margin-bottom: 8px;
+}
+
+.header-card {
+  color: var(--NAVY-BLUE, #2e2f42);
+
+  /* Header 3 */
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.footer {
+  background: var(--NAVY-BLUE, #2e2f42);
+  padding: 100px 0;
+}
+.footer-text {
+  color: var(--CLOUD, #f4f4fd);
+  max-width: 264px;
+}
+.section {
+  padding: 120px 0;
+}
+
+.project-cards {
+  row-gap: 48px;
+  column-gap: 24px;
+}
+/* .project-card {
+  width: calc((100% - 24px * 2) / 3);
+} */
+.project-card--info {
+  padding: 32px 16px;
+  border-right: 1px solid var(--CORNFLOWER, #e7e9fc);
+  border-bottom: 1px solid var(--CORNFLOWER, #e7e9fc);
+  border-left: 1px solid var(--CORNFLOWER, #e7e9fc);
+}
+.project-card--ttl {
+  margin-bottom: 8px;
+}
+.header {
+  border-bottom: 1px solid var(--CORNFLOWER, #e7e9fc);
+  background: var(--WHITE, #fff);
+}
+.section_offer {
+  padding: 188px 0;
+}
