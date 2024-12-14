@@ -266,10 +266,10 @@ img {
   fill: var(--CLOUD);
 }
 .team-card--social-link:hover {
-  color: var(--OCEAN, #404bbf);
+  background-color: var(--OCEAN, #404bbf);
 }
 .team-card--social-link:focus {
-  color: var(--OCEAN, #404bbf);
+  background-color: var(--OCEAN, #404bbf);
 }
 
 .benefit-cards {
